@@ -1,6 +1,6 @@
 ## Content
 
-#### Perception and action (8L) (Prof G Hennequin)
+#### Perception and action (8L) 
 
 - Neurons and synapses
     - Introduction to basic cell physiology and ion channels
@@ -8,7 +8,7 @@
 - Perception as Bayesian inference
 - Decision making
 
-#### Learning and memory (8L) (Prof M Lengyel)
+#### Learning and memory (8L)
 
 - The cellular basis of learning and memory
 - Animal learning
