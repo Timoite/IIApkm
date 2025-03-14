@@ -166,13 +166,23 @@
               "icon": "lucide-list",
               "title": "欢迎 的大纲"
             }
+          },
+          {
+            "id": "a822025d585277ec",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,11 +191,57 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80b292d65e82f2c3",
+  "active": "57e8e9cb37ee8be5",
   "lastOpenFiles": [
-    "欢迎.md"
+    "IIA Revision/3F8/Lectures/attachments/Pasted image 20250311151826.png",
+    "IIA Revision/3F8/Lectures/attachments/Pasted image 20250311151123.png",
+    "IIA Revision/3F8/Lectures/attachments/Pasted image 20250311150948.png",
+    "IIA Revision/3F8/Lectures/attachments/Pasted image 20250311150931.png",
+    "IIA Revision/3F8/Lectures/attachments/Pasted image 20250311150303.png",
+    "IIA Revision/3F8/Lectures/Optimization/Search methods for univariate continuous functions.md",
+    "IIA Revision/3F8/Lectures/Optimization/Introduction to Optimization.md",
+    "IIA Revision/3F8/Lectures/attachments",
+    "IIA Revision/3F8/Lectures/Optimization",
+    "IIA Revision/3F8/Keywords/positive definite.md",
+    "IIA Revision/3F8/Keywords/Necessary Condition & Sufficient Condition.md",
+    "IIA Revision/3F8/Keywords/Hessian.md",
+    "IIA Revision/3F8/Lectures",
+    "IIA Revision/3F8/Keywords",
+    "IIA Revision/3F8",
+    "IIA Revision/3G3/Keywords/habituation.md",
+    "IIA Revision/3G3/Keywords/depolarization.md",
+    "IIA Revision/3G3/Keywords/attachments/9622.png",
+    "IIA Revision/3G3/Keywords/attachments/94126.png",
+    "IIA Revision/3G3/Keywords/attachments/89649.png",
+    "IIA Revision/3G3/Keywords/attachments/8858.png",
+    "IIA Revision/3G3/Keywords/attachments/73398.png",
+    "IIA Revision/3G3/Keywords/attachments/41701.png",
+    "IIA Revision/3G3/Keywords/attachments",
+    "IIA Revision/3G3/Keywords/hippocampus.md",
+    "IIA Revision/3G3/Keywords/dendrites.md",
+    "IIA Revision/3G3/Keywords/postsynaptic receptor.md",
+    "IIA Revision/3G3/Keywords/sensitization.md",
+    "IIA Revision/3G3/Keywords/norepinephrine.md",
+    "IIA Revision/3G3/Keywords/signals (excitatory or inhibitory).md",
+    "IIA Revision/3G3/Keywords/neurotransmitter.md",
+    "IIA Revision/3G3/Keywords/memory.md",
+    "IIA Revision/3G3/Keywords/ion channels.md",
+    "IIA Revision/3G3/Keywords/hyperpolarization.md",
+    "IIA Revision/3G3/Keywords/gap junctions.md",
+    "IIA Revision/3G3/Keywords/electrical synapses.md",
+    "IIA Revision/3G3/Keywords/dopamine.md",
+    "IIA Revision/3G3/Keywords/classical conditioning.md",
+    "IIA Revision/3G3/Keywords/chemical synapses.md",
+    "IIA Revision/3G3/Keywords/action potentials.md",
+    "IIA Revision/3G3/Keywords/AMPA, NMDA.md",
+    "IIA Revision/3G3/Keywords",
+    "IIA Revision/3G3/3G3 2024-25 syllubus.md",
+    "IIA Revision/3G3",
+    "IIA Revision/3G4",
+    "IIA Revision"
   ]
 }

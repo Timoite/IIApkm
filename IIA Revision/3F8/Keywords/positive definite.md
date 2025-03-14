@@ -1,0 +1,1 @@
+A matrix is positive definite if and only if all its __eigenvalues are positive__.

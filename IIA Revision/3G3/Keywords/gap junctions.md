@@ -1,0 +1,2 @@
+Due to their large pore size and lack of strict selectivity, gap-junction channels allow many different small molecules and ions to pass between cells. In addition to basic inorganic ions (like Na⁺, K⁺, Cl⁻), they can also let through biochemical signaling molecules such as calcium ions (Ca²⁺) and cyclic adenosine monophosphate (cAMP). This nonselective permeability facilitates both rapid electrical coupling and the spread of important second messengers across adjacent cells, crucial for coordinating cellular responses in many tissues.
+
