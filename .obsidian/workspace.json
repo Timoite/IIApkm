@@ -11,14 +11,16 @@
             "id": "80b292d65e82f2c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
-                "mode": "source",
-                "source": false
+                "file": "3F3/Reference Notes/3F3 by M.S..pdf",
+                "page": 6,
+                "left": -15,
+                "top": 606,
+                "zoom": 1.0230548518670333
               },
-              "icon": "lucide-file",
-              "title": "3G3 2024-25 syllabus"
+              "icon": "lucide-file-text",
+              "title": "3F3 by M.S."
             }
           }
         ]
@@ -166,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,16 +184,25 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "80b292d65e82f2c3",
+  "active": "a822025d585277ec",
   "lastOpenFiles": [
+    "未命名.md",
+    "3F3/Reference Notes/3F3 by M.S..pdf",
+    "3F3/Reference Notes",
+    "3F3",
+    "3E1/3rd Revision Notes (for reference)/3E1 by M.S..pdf",
+    "3G4/3rd Revision Notes (for reference)/3G4 by T.L..pdf",
+    "3E1/3rd Revision Notes (for reference)",
+    "3E1",
+    "3G4/3rd Revision Notes (for reference)/3G4 by M.S..pdf",
+    "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
+    "3G4/3rd Revision Notes (for reference)",
     "3G3/Keywords/electrical synapses.md",
     "3G3/Compiled_Revision_Note_3G3",
     "3F7/3F7 information theory.md",
     "3F7/1737546596841.png",
     "3F7/1737553112899.png",
-    "3F7",
     "3B1/3b1.md",
-    "3B1",
     "欢迎.md",
     "3F8/Lectures/attachments/Pasted image 20250311151826.png",
     "3F8/Lectures/attachments/Pasted image 20250311151123.png",
@@ -201,20 +211,14 @@
     "3F8/Lectures/attachments/Pasted image 20250311150303.png",
     "3F8/Lectures/Optimization/Search methods for univariate continuous functions.md",
     "3F8/Lectures/Optimization/Introduction to Optimization.md",
-    "3F8/Lectures/attachments",
-    "3F8/Lectures/Optimization",
     "3F8/Keywords/positive definite.md",
     "3F8/Keywords/Necessary Condition & Sufficient Condition.md",
     "3F8/Keywords/Hessian.md",
-    "3F8/Lectures",
-    "3F8/Keywords",
-    "3F8",
     "3G3/Keywords/habituation.md",
     "3G3/Keywords/depolarization.md",
     "3G3/Keywords/attachments/9622.png",
     "3G3/Keywords/attachments/94126.png",
     "3G3/Keywords/attachments/89649.png",
-    "3G3/Keywords/attachments",
     "3G3/Keywords/hippocampus.md",
     "3G3/Keywords/dendrites.md",
     "3G3/Keywords/postsynaptic receptor.md",
@@ -226,9 +230,6 @@
     "3G3/Keywords/ion channels.md",
     "3G3/Keywords/hyperpolarization.md",
     "3G3/Keywords/gap junctions.md",
-    "3G3/Keywords/dopamine.md",
-    "3G3/Keywords/classical conditioning.md",
-    "3G3/Keywords/chemical synapses.md",
-    "3G3/Keywords"
+    "3G3/Keywords/dopamine.md"
   ]
 }
