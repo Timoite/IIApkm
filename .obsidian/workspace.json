@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "3F3/Reference Notes/3F3 by M.S..pdf",
-                "page": 6,
-                "left": -15,
-                "top": 606,
-                "zoom": 1.0230548518670333
+                "file": "3G4/3rd Revision Notes (for reference)/3G4 by M.S..pdf",
+                "page": 1,
+                "left": -10,
+                "top": 156,
+                "zoom": 1.5270227591906949
               },
               "icon": "lucide-file-text",
-              "title": "3F3 by M.S."
+              "title": "3G4 by M.S."
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "0f60276b302708f0",
@@ -168,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,10 +185,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a822025d585277ec",
+  "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
-    "未命名.md",
     "3F3/Reference Notes/3F3 by M.S..pdf",
+    "未命名.md",
     "3F3/Reference Notes",
     "3F3",
     "3E1/3rd Revision Notes (for reference)/3E1 by M.S..pdf",
