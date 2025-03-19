@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,7 +183,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a822025d585277ec",
+  "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
     "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
     "3G3/3rd Revision Notes for reference",
