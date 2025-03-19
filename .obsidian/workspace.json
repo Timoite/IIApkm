@@ -11,16 +11,14 @@
             "id": "80b292d65e82f2c3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "3G4/3rd Revision Notes (for reference)/3G4 by M.S..pdf",
-                "page": 1,
-                "left": -10,
-                "top": 156,
-                "zoom": 1.5270227591906949
+                "file": "3F7/3F7 information theory.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "3G4 by M.S."
+              "icon": "lucide-file",
+              "title": "3F7 information theory"
             }
           }
         ]
@@ -187,15 +185,15 @@
   },
   "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
-    "3F3/Reference Notes/3F3 by M.S..pdf",
     "未命名.md",
+    "3G4/3rd Revision Notes (for reference)/3G4 by M.S..pdf",
+    "3F3/Reference Notes/3F3 by M.S..pdf",
     "3F3/Reference Notes",
     "3F3",
     "3E1/3rd Revision Notes (for reference)/3E1 by M.S..pdf",
     "3G4/3rd Revision Notes (for reference)/3G4 by T.L..pdf",
     "3E1/3rd Revision Notes (for reference)",
     "3E1",
-    "3G4/3rd Revision Notes (for reference)/3G4 by M.S..pdf",
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
     "3G4/3rd Revision Notes (for reference)",
     "3G3/Keywords/electrical synapses.md",
