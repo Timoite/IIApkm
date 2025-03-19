@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3F7/3F7 information theory.md",
+                "file": "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3F7 information theory"
+              "title": "3G3 2024-25 syllabus"
             }
           }
         ]
@@ -166,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,11 +182,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "80b292d65e82f2c3",
+  "active": "a822025d585277ec",
   "lastOpenFiles": [
+    "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
+    "3G3/3rd Revision Notes for reference",
+    "3F3/Reference Notes/3F3 by M.S..pdf",
+    "3F7/3F7 information theory.md",
     "未命名.md",
     "3G4/3rd Revision Notes (for reference)/3G4 by M.S..pdf",
-    "3F3/Reference Notes/3F3 by M.S..pdf",
     "3F3/Reference Notes",
     "3F3",
     "3E1/3rd Revision Notes (for reference)/3E1 by M.S..pdf",
@@ -197,8 +199,6 @@
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
     "3G4/3rd Revision Notes (for reference)",
     "3G3/Keywords/electrical synapses.md",
-    "3G3/Compiled_Revision_Note_3G3",
-    "3F7/3F7 information theory.md",
     "3F7/1737546596841.png",
     "3F7/1737553112899.png",
     "3B1/3b1.md",
