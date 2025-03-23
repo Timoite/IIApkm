@@ -11,14 +11,16 @@
             "id": "80b292d65e82f2c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
-                "mode": "source",
-                "source": false
+                "file": "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
+                "page": 1,
+                "left": -16,
+                "top": 846,
+                "zoom": 0.9499803032377446
               },
-              "icon": "lucide-file",
-              "title": "3G3 2024-25 syllabus"
+              "icon": "lucide-file-text",
+              "title": "3G3 by T.L."
             }
           }
         ]
@@ -78,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0f60276b302708f0",
@@ -185,6 +188,7 @@
   },
   "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
+    "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
     "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
     "3G3/3rd Revision Notes for reference",
     "3F3/Reference Notes/3F3 by M.S..pdf",
@@ -197,8 +201,6 @@
     "3G4/3rd Revision Notes (for reference)/3G4 by T.L..pdf",
     "3E1/3rd Revision Notes (for reference)",
     "3E1",
-    "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
-    "3G4/3rd Revision Notes (for reference)",
     "3G3/Keywords/electrical synapses.md",
     "3F7/1737546596841.png",
     "3F7/1737553112899.png",
