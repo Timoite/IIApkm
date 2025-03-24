@@ -15,9 +15,9 @@
               "state": {
                 "file": "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
                 "page": 1,
-                "left": -16,
+                "left": -10,
                 "top": 846,
-                "zoom": 0.9499803032377446
+                "zoom": 1.5270240418092127
               },
               "icon": "lucide-file-text",
               "title": "3G3 by T.L."
@@ -46,7 +46,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0f60276b302708f0",
@@ -160,8 +159,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -174,12 +173,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
@@ -188,10 +187,10 @@
   },
   "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
+    "3F3/Reference Notes/3F3 by M.S..pdf",
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
     "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
     "3G3/3rd Revision Notes for reference",
-    "3F3/Reference Notes/3F3 by M.S..pdf",
     "3F7/3F7 information theory.md",
     "未命名.md",
     "3G4/3rd Revision Notes (for reference)/3G4 by M.S..pdf",
