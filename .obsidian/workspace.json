@@ -11,16 +11,14 @@
             "id": "80b292d65e82f2c3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
-                "page": 3,
-                "left": -13,
-                "top": 494,
-                "zoom": 1.1490477938366355
+                "file": "3G3/Keywords/未命名.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "3G3 by T.L."
+              "icon": "lucide-file",
+              "title": "未命名"
             }
           }
         ]
@@ -184,9 +182,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "a822025d585277ec",
+  "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
     "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
+    "3G3/Keywords/未命名.md",
     "conflict-files-obsidian-git.md",
     "3F3/Reference Notes/3F3 by M.S..pdf",
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
@@ -229,7 +228,6 @@
     "3G3/Keywords/neurotransmitter.md",
     "3G3/Keywords/memory.md",
     "3G3/Keywords/ion channels.md",
-    "3G3/Keywords/hyperpolarization.md",
-    "3G3/Keywords/gap junctions.md"
+    "3G3/Keywords/hyperpolarization.md"
   ]
 }
