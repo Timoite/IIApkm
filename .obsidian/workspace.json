@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
-                "page": 1,
-                "left": -10,
-                "top": 846,
-                "zoom": 1.5270240418092127
+                "page": 3,
+                "left": -13,
+                "top": 494,
+                "zoom": 1.1490477938366355
               },
               "icon": "lucide-file-text",
               "title": "3G3 by T.L."
@@ -168,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,11 +184,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "80b292d65e82f2c3",
+  "active": "a822025d585277ec",
   "lastOpenFiles": [
+    "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
+    "conflict-files-obsidian-git.md",
     "3F3/Reference Notes/3F3 by M.S..pdf",
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
-    "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
     "3G3/3rd Revision Notes for reference",
     "3F7/3F7 information theory.md",
     "未命名.md",
@@ -230,7 +230,6 @@
     "3G3/Keywords/memory.md",
     "3G3/Keywords/ion channels.md",
     "3G3/Keywords/hyperpolarization.md",
-    "3G3/Keywords/gap junctions.md",
-    "3G3/Keywords/dopamine.md"
+    "3G3/Keywords/gap junctions.md"
   ]
 }
