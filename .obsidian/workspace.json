@@ -11,16 +11,14 @@
             "id": "80b292d65e82f2c3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
-                "page": 9,
-                "left": -16,
-                "top": 794,
-                "zoom": 0.9499803032377446
+                "file": "3M1/Revision/Non-linear constrained optimization.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "3G3 by T.L."
+              "icon": "lucide-file",
+              "title": "Non-linear constrained optimization"
             }
           }
         ]
@@ -80,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0f60276b302708f0",
@@ -188,8 +185,11 @@
   },
   "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
-    "3G3/Keywords/未命名.md",
     "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
+    "3M1/Revision/Non-linear constrained optimization.md",
+    "3M1/Revision",
+    "3M1",
+    "3G3/Keywords/未命名.md",
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
     "3G3/3rd Revision Notes for reference",
     "3F3/Reference Notes/3F3 by M.S..pdf",
@@ -200,8 +200,6 @@
     "3F3",
     "3E1/3rd Revision Notes (for reference)/3E1 by M.S..pdf",
     "3G4/3rd Revision Notes (for reference)/3G4 by T.L..pdf",
-    "3E1/3rd Revision Notes (for reference)",
-    "3E1",
     "3G3/Keywords/electrical synapses.md",
     "3F7/1737546596841.png",
     "3F7/1737553112899.png",
@@ -231,8 +229,6 @@
     "3G3/Keywords/neurotransmitter.md",
     "3G3/Keywords/memory.md",
     "3G3/Keywords/ion channels.md",
-    "3G3/Keywords/hyperpolarization.md",
-    "3G3/Keywords/gap junctions.md",
-    "3G3/Keywords/dopamine.md"
+    "3G3/Keywords/hyperpolarization.md"
   ]
 }
