@@ -43,6 +43,14 @@ $$
 f = c_{n-1}x^{n-1}+c_{n-2}x^{n-2}+\dots+c_{1}x+c_{0}
 $$
 - Legendre polynomials
-	$$
-(n+1)P_{n+1}(x)=(2n+1)xP
 $$
+(n+1)P_{n+1}(x)=(2n+1)xP_{n}(x)-nP_{n-1}(x)
+$$
+- $P_{0}=1, P_{1}=x$
+- special features (orthogonal):
+$$
+\int_{-1}^{1}P_{m}(x)P_{n}(x)dx=0 \text{ if }m \neq n
+$$
+
+- Interpolation using Legendre polynomial
+- 
