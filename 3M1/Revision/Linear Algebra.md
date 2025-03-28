@@ -5,5 +5,16 @@
 
 ## Norms
 - Property:
-	- $||x||>0 \text{ when x}$
+	- $||x||>0, x \neq 0$
 	- $||x||=0\text{ when x=0}$
+	- $||kx||=|k|||x||$
+	- $||x+y||\leq||x||+||y||$
+- ln norm
+	- $||x||_n =\left( \sum|x_{i}|^n \right)^{1/n}$
+	- $||x||_{\infty}=max|x_{i}|$
+
+- unit sphere and unit shell
+	- unit ball (open)
+	- unit ball (close)
+	- unit shell
+- 
