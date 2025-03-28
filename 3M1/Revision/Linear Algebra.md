@@ -31,7 +31,18 @@ $$
 
 
 # Interpolation
-- issues with polyomail interpolation
+- issues with polynomial interpolation
 	- ill-conditioned matrix
 	- can be very sensitive to the choice of interpolation points
-- 
+	- Runge effect
+	- condition number increases when polynomial degree increased
+- Orthogonal polynomials
+
+- Orthogonal polynomials
+$$
+f = c_{n-1}x^{n-1}+c_{n-2}x^{n-2}+\dots+c_{1}x+c_{0}
+$$
+- Legendre polynomials
+	$$
+(n+1)P_{n+1}(x)=(2n+1)xP
+$$
