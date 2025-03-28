@@ -25,3 +25,13 @@ $$
 ||A||=\max_{x } \frac{||Ax||}{||x||}
 $$
 ### Error Bounds
+
+
+
+
+
+# Interpolation
+- issues with polyomail interpolation
+	- ill-conditioned matrix
+	- can be very sensitive to the choice of interpolation points
+- 
