@@ -17,4 +17,10 @@
 	- unit ball (open)
 	- unit ball (close)
 	- unit shell
-- 
+- Matrix norms
+	- less intuitive than norms of vectors
+	- expensive to compute
+- operator norms
+$$
+||A||=max \frac{||Ax||}{||x||}
+$$
