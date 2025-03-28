@@ -22,5 +22,5 @@
 	- expensive to compute
 - operator norms
 $$
-||A||=max \frac{||Ax||}{||x||}
+||A||=\max_{x } \frac{||Ax||}{||x||}
 $$
