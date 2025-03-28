@@ -24,3 +24,4 @@
 $$
 ||A||=\max_{x } \frac{||Ax||}{||x||}
 $$
+### Error Bounds
