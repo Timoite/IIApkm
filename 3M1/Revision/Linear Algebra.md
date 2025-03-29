@@ -251,6 +251,15 @@ $$
 \end{aligned}
 $$
 
+---
+
+### Application of SVD
+
+
+
+---
+
+Effective rank:
 
 
 
