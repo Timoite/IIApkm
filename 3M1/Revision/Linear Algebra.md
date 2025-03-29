@@ -130,8 +130,24 @@ where $\rho$ is the largest absolute eigenvalue of the matrix, which is also cal
 
 ### Conjugate gradient method
 as a direct method:
-considerwe have a set P of n non-zero vectors that are A-conjugate, where A-conjugrate implied that:
+consider we have a set P of n non-zero vectors that are A-conjugate, where A-conjugrate implied that:
 $$
 p_{i}^HAp_{j}=0 \text{ if } i \neq j
 $$
+
+$$
+Ax = \sum_{i=0}^{n-1} \alpha_i Ap_i = b.
+$$
+
+$$
+p_j^H Ax = \sum_{i=0}^{n-1} \alpha_i p_j^H Ap_i = \alpha_j p_j^H Ap_j = p_j^H b
+$$
+$$
+\alpha_j = \frac{p_j^H b}{p_j^H A p_j}
+$$
+
+note that the CG method is monotone in the A-norm:
+
+
+
 
