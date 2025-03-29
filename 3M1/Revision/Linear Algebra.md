@@ -259,7 +259,36 @@ $$
 
 ---
 
-Effective rank:
+### The effective rank
+The effective rank is the number of singular values that are greater than the noise level
+
+### Least-squares solutions
+$$
+\hat{x} = (A^H A)^{-1} A^H b = A^+ b,
+$$
+
+In full rank, we decompose:
+$$
+A = \begin{bmatrix} U_1 & U_2 \end{bmatrix} \begin{bmatrix} \Sigma_1 \\ 0 \end{bmatrix} V^H.
+$$
+least square minimise:
+$$
+\begin{aligned}
+r = \|A \hat{x} - b\|_2^2 &= \left\| \begin{bmatrix} U_1^H \\ U_2^H \end{bmatrix} (A \hat{x} - b) \right\|_2^2 \\
+&= \left\| \begin{bmatrix} U_1^H \\ U_2^H \end{bmatrix} (U_1 \Sigma_1 V^H \hat{x} - b) \right\|_2^2 \\
+&= \left\| \begin{bmatrix} \Sigma_1 V^H \hat{x} - U_1^H b \\ -U_2^H b \end{bmatrix} \right\|_2^2 \\
+&= \|\Sigma_1 V^H \hat{x} - U_1^H b\|_2^2 + \|U_2^H b\|_2^2.
+\end{aligned}
+$$
+
+which is minimised when $$
+\Sigma_1 V^H x = U_1^H b,
+$$
+so $$
+\hat{x} = V \Sigma_1^{-1} U_1^H b.
+$$
+where 
+
 
 
 
