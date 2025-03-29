@@ -64,5 +64,26 @@ $$
 $$
 Solving this and makeing the derivative to zero, we get:
 $$
-
+\hat{x} = (A^H A)^{-1} A^H b \\
+= A^+ b
 $$
+---
+
+# Iterative methods for linear systems
+Direct methods can be expensive when the matrix is large. It does not scale well and is sequential, not suitable for parallel computers.
+
+for iterative solvers:
+- less complexity
+- less memory
+- some can solve singular problems
+- can be terminated early
+- are often suited to large, parallel computer
+
+## An iterative method for the largest eigenvalue and eigenvector
+recall that a vector x can be expressed in terms of the n eigenvectors of a $n \times n$ matrix, if we multiple x repeatedly by A:
+$$
+\underbrace{AA \dots A}_{k \text{ times}} x = A^k x = \sum_{i=1}^{n} \alpha_i \lambda_i^k u_i,
+$$
+### Rayleigh quotient
+
+
