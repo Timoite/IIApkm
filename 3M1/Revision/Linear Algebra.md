@@ -53,4 +53,16 @@ $$
 $$
 
 - Interpolation using Legendre polynomial
-- 
+
+
+---
+
+# Data Fitting
+Minimising error in the $l_{2}$  norm, we've got the least square error:
+$$
+\min_{\hat{x} \in \mathbb{C}^n} ||r(\hat{x})|| = \min_{\hat{x} \in \mathbb{C}^n} ||A\hat{x} - b||
+$$
+Solving this and makeing the derivative to zero, we get:
+$$
+
+$$
