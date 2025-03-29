@@ -110,5 +110,28 @@ Three classic examples:
 - Jacobi method
 - Gauss-Seidel
 
-### Convergence
-Defining the error at the kth iterate 
+#### Convergence
+Defining the error at the kth iterate:
+$$
+e_{k} = x_{exact}-x_{k}
+$$
+therefore:
+$$
+e_{k+1}=N^{-1}Pe_{k}
+$$
+$$
+e_{k}=(N^{-1}P)^ke_{0}=c_{1}\lambda_{1}^ku_{1}\dots
+$$
+will converge if 
+$$
+\rho(N^{-1}P)<1
+$$
+where $\rho$ is the largest absolute eigenvalue of the matrix, which is also called spectral radius
+
+### Conjugate gradient method
+as a direct method:
+considerwe have a set P of n non-zero vectors that are A-conjugate, where A-conjugrate implied that:
+$$
+p_{i}^HAp_{j}=0 \text{ if } i \neq j
+$$
+
