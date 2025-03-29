@@ -11,10 +11,14 @@
             "id": "80b292d65e82f2c3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3F7/3F7 information theory.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "3F7 information theory"
             }
           }
         ]
@@ -36,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -158,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,8 +177,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57e8e9cb37ee8be5",
+  "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
+    "3G3/3G3 2024-25 syllubus.md",
     "3F7/3F7 information theory.md",
     "3F7/1737553112899.png",
     "3F7/1737546596841.png",
@@ -216,7 +223,6 @@
     "3G3/Keywords/dopamine.md",
     "3G3/Keywords/classical conditioning.md",
     "3G3/Keywords/chemical synapses.md",
-    "3G3/Keywords/action potentials.md",
     "3G3/Keywords",
     "3G3"
   ]
