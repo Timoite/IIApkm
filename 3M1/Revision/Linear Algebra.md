@@ -169,13 +169,26 @@ For Hermitian matrix M:
 $$
 Q^H M Q = \Lambda
 $$
+$$
+M = Q \Lambda Q^H.
+$$
+
 the columns of Q are the $l_{2}$ normalised eigenvectors of M. Q is a unitary matrix since the eigenvectors of M is orthogonal.
 
 #### Multiplication of a diagonal matrix
 $$
 AD = \begin{bmatrix} d_1 a_1 & \dots & d_n a_n \end{bmatrix}
 $$
+$$
+M = \sum_i \lambda_i u_i u_i^H
+$$
 
+note that all Hermitian matrices can be diagonalised, and has sign ambiguity.
+
+#### Definition of SVD
+$$
+A = U \Sigma V^H
+$$
 
 
 
