@@ -62,7 +62,7 @@ Minimising error in the $l_{2}$  norm, we've got the least square error:
 $$
 \min_{\hat{x} \in \mathbb{C}^n} ||r(\hat{x})|| = \min_{\hat{x} \in \mathbb{C}^n} ||A\hat{x} - b||
 $$
-Solving this and makeing the derivative to zero, we get:
+Solving this and making the derivative to zero, we get:
 $$
 \hat{x} = (A^H A)^{-1} A^H b \\
 = A^+ b
@@ -85,5 +85,16 @@ $$
 \underbrace{AA \dots A}_{k \text{ times}} x = A^k x = \sum_{i=1}^{n} \alpha_i \lambda_i^k u_i,
 $$
 ### Rayleigh quotient
+To find an estimate of eigenvalue, we pose a minimisation problem:
+$$
+\min_{\lambda^* \in \mathbb{C}} ||Ax - \lambda^* x||_2.
+$$
 
+Hence:
+
+$$
+\lambda^* = R(A, x) = \frac{x^H A x}{x^H x},
+$$
+
+where R is known as the Rayleigh quotient.
 
