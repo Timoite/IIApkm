@@ -98,3 +98,17 @@ $$
 
 where R is known as the Rayleigh quotient.
 
+## Stationary method for Ax = b
+$A = N - P$, $Nx = b +Px$, so:
+$$
+Nx_{k+1} = b + Px_k,
+$$
+
+is a way to approximate a solution.
+Three classic examples:
+- Richardson iteration
+- Jacobi method
+- Gauss-Seidel
+
+### Convergence
+Defining the error at the kth iterate 
