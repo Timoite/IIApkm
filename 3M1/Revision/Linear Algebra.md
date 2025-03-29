@@ -146,7 +146,26 @@ $$
 \alpha_j = \frac{p_j^H b}{p_j^H A p_j}
 $$
 
-note that the CG method is monotone in the A-norm:
+Note that the CG method is monotone in the A-norm, and the rate of convergence is affected by he condition number:
+$$
+\frac{||e_k||_A}{||e_0||_A} \leq 2 \left( \frac{\sqrt{\kappa_2} - 1}{\sqrt{\kappa_2} + 1} \right)^k
+$$
+
+#### Preconditioning
+to enhance the convergence rate, we can use preconditioning:
+$$
+P^{-1}Ax = P^{-1}b
+$$
+where $P^{-1}$ must be cheap to apply for efficiency but close enough to $a^{-1}$  to be effective.
+
+---
+
+# Singular value decomposition (SVD)
+
+## Definition and properties
+
+### matrix diagonalisation
+
 
 
 
