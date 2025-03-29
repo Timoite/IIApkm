@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "diagonalisation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -74,7 +74,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -183,6 +184,7 @@
   },
   "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
+    "Pasted image 20250329170355.png",
     "Pasted image 20250329160215.png",
     "3M1/Revision/Non-linear constrained optimization.md",
     "3F7/3F7 information theory.md",
@@ -219,7 +221,6 @@
     "3G3/Keywords/depolarization.md",
     "3G3/Keywords/attachments/9622.png",
     "3G3/Keywords/attachments/94126.png",
-    "3G3/Keywords/attachments/89649.png",
     "3G3/Keywords/hippocampus.md",
     "3G3/Keywords/dendrites.md",
     "3G3/Keywords/postsynaptic receptor.md",

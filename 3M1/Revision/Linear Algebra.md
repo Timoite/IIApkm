@@ -206,6 +206,24 @@ $$
 	- The diagonal entries of  $\Sigma^H \Sigma$  are the eigenvalues of $A^H A$ 
 
 if post-multiplying:
+$$
+A = U \Sigma V^H \text{ by } V,
+$$
+$$
+AV = U \Sigma
+$$
+$$
+Av_i = \sigma_i u_i
+$$
+
+---
+### Reduced SVD
+![[Pasted image 20250329170355.png]]
+
+---
+
+
+
 
 
 
