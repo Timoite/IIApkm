@@ -189,6 +189,24 @@ note that all Hermitian matrices can be diagonalised, and has sign ambiguity.
 $$
 A = U \Sigma V^H
 $$
+what should they be?
+
+pre-multiplied by $A^H$:
+$$
+\begin{aligned}
+A^H A &= (U \Sigma V^H)^H U \Sigma V^H \\
+&= V \Sigma^H U^H U \Sigma V^H \\
+&= V \Sigma^H \Sigma V^H.
+\end{aligned}
+$$
+- $A^H A$ is Hermitian
+- $\Sigma^H \Sigma$ is diagonal with entries $\sigma_{1}^2\dots \sigma_{p}^2$
+- so it is the diagonalisation of the square matrix $A^H A$ 
+	- Columns of V are the normalised eigenvectors of $A^H A$ 
+	- The diagonal entries of  $\Sigma^H \Sigma$  are the eigenvalues of $A^H A$ 
+
+if post-multiplying:
+
 
 
 
