@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3F7/3F7 information theory.md",
+                "file": "3M1/Revision/Linear Algebra.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3F7 information theory"
+              "title": "Linear Algebra"
             }
           }
         ]
@@ -176,11 +176,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a822025d585277ec",
+  "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
+    "3M1/Revision/Non-linear constrained optimization.md",
     "3F7/3F7 information theory.md",
     "conflict-files-obsidian-git.md",
-    "3M1/Revision/Non-linear constrained optimization.md",
     "3M1/Revision/Linear Algebra.md",
     "3M1/Revision",
     "3M1",
