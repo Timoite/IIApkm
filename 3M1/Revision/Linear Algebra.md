@@ -235,6 +235,22 @@ $$
 A_k = \sum_{i=1}^k \sigma_i u_i v_i^H
 $$
 
+optimality:
+
+$$
+\begin{aligned}
+A - A_k &= \sum_{i=1}^r \sigma_i u_i v_i^H - \sum_{i=1}^k \sigma_i u_i v_i^H \\
+&= \sum_{i=k+1}^r \sigma_i u_i v_i^H
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+\|A - A_k\|_2 &= \left\| \sum_{i=k+1}^r \sigma_i u_i v_i^H \right\|_2 \\
+&= \sigma_{k+1}
+\end{aligned}
+$$
+
 
 
 
