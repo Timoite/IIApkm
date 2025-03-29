@@ -164,7 +164,17 @@ where $P^{-1}$ must be cheap to apply for efficiency but close enough to $a^{-1}
 
 ## Definition and properties
 
-### matrix diagonalisation
+### matrix Diagonalisation
+For Hermitian matrix M:
+$$
+Q^H M Q = \Lambda
+$$
+the columns of Q are the $l_{2}$ normalised eigenvectors of M. Q is a unitary matrix since the eigenvectors of M is orthogonal.
+
+#### Multiplication of a diagonal matrix
+$$
+AD = \begin{bmatrix} d_1 a_1 & \dots & d_n a_n \end{bmatrix}
+$$
 
 
 
