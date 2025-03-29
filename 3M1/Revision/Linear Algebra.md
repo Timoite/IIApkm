@@ -221,6 +221,24 @@ $$
 ![[Pasted image 20250329170355.png]]
 
 ---
+### Computing the SVD
+See lecture notes, general steps:
+1. compute eigenvalues/vectors of $AA^T$ to get $U$ and $\Sigma$
+2. compute eigenvalues/vectors of $A^TA$ to get $V$
+3. reduce the SVD
+
+---
+
+### low-rank approximation
+similar to principal axis? reduce the rank of A to k.
+$$
+A_k = \sum_{i=1}^k \sigma_i u_i v_i^H
+$$
+
+
+
+
+
 
 
 
