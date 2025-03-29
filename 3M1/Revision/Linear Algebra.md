@@ -288,7 +288,20 @@ so $$
 \hat{x} = V \Sigma_1^{-1} U_1^H b.
 $$
 where 
+$$
+\Sigma^+ = \begin{bmatrix}
+1/\sigma_1 & & \\
+& \ddots & \\
+& & 1/\sigma_n
+\end{bmatrix}
+$$
 
+---
+
+### Stability
+if the smallest singular value $\sigma_{min}$ is small, then the least squares solution will be large and very sensitive to changes in b.
+
+this is the case for full rank. if $\sigma_{min}=0$, we cannot compute a unique least squares solutions.
 
 
 
