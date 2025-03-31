@@ -95,12 +95,39 @@ Representing sequences as power series is a common technique in engineering and 
 **Power series** serve as substitute representations of sequences, hence the term "transform". 
 
 # Representing sequences as power series
-A formal power series uses a formal variable, such as $D$, without assigning a value to it. Formal power series harness computation rules for power series; 
+A formal power series uses a formal variable, such as $D$, **without assigning a value to it**. Formal power series harness computation rules for power series; 
 
 for instance, $$\frac{1}{1-D} = 1 + D + D^2 + D^3...$$ always holds. Non-formal power series are only true if $|D| < 1$. 
 
-Formal power series are sufficient for mapping convolutions to multiplications without assigning values or worrying about convergence, which is used for generating functions and D transforms. In z-transform/DTFT, a value is assigned to the variable $z/e^{j\theta}$, making it a power series with properties beyond converting convolutions to multiplications, such as indicating stability and determining steady-state responses.
+Formal power series are sufficient for mapping convolutions to multiplications without assigning values or worrying about convergence, which is used for generating functions and D transforms. 
 
+In z-transform/DTFT, a value is assigned to the variable $z/e^{j\theta}$, making it a power series (NOT a formal power series) with properties beyond converting convolutions to multiplications, such as **indicating stability and determining steady-state responses**.
+
+
+# Z-transform
+
+For a signal $\{u_k\}$, the z-transform is defined as $$U(z) = \sum_{k=0}^{\infty} u_k z^{-k}$$
+This is equivalent to a generic transform with $D = z^{-1}$, adopting the negative power by analogy with the Laplace transform. 
+
+The z-transform ignores signal values at negative times, although $\{u_k\}$ is **not assumed** to be one-sided. While the signal $\{u_k\}$ is real-valued in most control theory applications, it **can be complex** in others. 
+
+The z-transform is used in wireless devices for signal processing applied to complex signals. Standard **z-transform properties are listed in the Information Data Book on page 3**.
+
+## Examples
+1. For the sequence $\mathbf{u} = \{u_k\}_{k \geq 0} = 1, 2, 3, 4, 5, 0, 0, 0, ...$, the z-transform is $$U(z) = 1 + 2z^{-1} + 3z^{-2} + 4z^{-3} + 5z^{-5}$$.
+
+2. For the geometric sequence $\mathbf{u} = \{u_k\}_{k \geq 0} = \{1, q, q^2, q^3, q^4, ...\}$:
+$$U(z) = \sum_{k=0}^{\infty} q^k z^{-k} = \sum_{k=0}^{\infty} (qz^{-1})^k = \frac{1}{1 - qz^{-1}} = \frac{z}{z - q}$$.This is valid if $|qz^{-1}| < 1$ or $|z| > |q|$, which defines the region of convergence (ROC) of the z-transform.
+
+3. In the special case where $q = 1$, representing the unit step signal $\mathbf{u} = 1, 1, 1, ...$ (where $u_k = 0$ for $k < 0$ and $u_k = 1$ for $k \geq 0$):
+$$U(z) = \frac{1}{1 - z^{-1}} = \frac{z}{z - 1}$$
+
+
+# One-sided vs. two-sided
+
+Most textbooks define the z-transform as a one-sided sum, but some use a two-sided sum from $-\infty$ to $\infty$, which is relevant for **stochastic signals analysis**. 
+
+For example, $\{u_k\}_{k\geq0} = \{1, 1, 1, ...\}$ has a z-transform of $U(z) = \frac{1}{1 - z^{-1}} = \frac{z}{z - 1}$, while $\{v_k\}_{k<0} = \{..., 1, 1, 1\}$ has a z-transform of $V(z) = \sum_{k=-\infty}^{-1} z^{-k} = \sum_{k=1}^{\infty} z^{k} = \frac{z}{z - 1}$. These two signals have the same two-sided z-transform, distinguished only by their ROC: $|z| > 1$ for $U(z)$ and $|z| < 1$ for $V(z)$. For two-sided z-transforms, the ROC cannot be ignored. The two-sided transform is the DTFT.
 
 
 
