@@ -25,16 +25,14 @@
             "id": "9b9771e293ebc2dd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "3F1/3rd notes/L16_handout.pdf",
-                "page": 2,
-                "left": -13,
-                "top": 363,
-                "zoom": 1.2397610520162077
+                "file": "3F1/Discrete-time systems.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "L16_handout"
+              "icon": "lucide-file",
+              "title": "Discrete-time systems"
             }
           }
         ],
@@ -112,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3F1/3rd notes/L16_handout.pdf",
+                "file": "3F1/Discrete-time systems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for L16_handout"
+              "title": "Backlinks for Discrete-time systems"
             }
           },
           {
@@ -200,9 +198,9 @@
   },
   "active": "9b9771e293ebc2dd",
   "lastOpenFiles": [
-    "3F1/3rd notes/3F1 by T.L..pdf",
-    "3F1/3rd notes/L16_handout.pdf",
     "3F1/Digital Filtering.md",
+    "3F1/3rd notes/L16_handout.pdf",
+    "3F1/3rd notes/3F1 by T.L..pdf",
     "3F1/3rd notes",
     "3F1/Discrete-time systems.md",
     "3F1/Discrete and Continuous Random Processes.md",
@@ -222,7 +220,6 @@
     "3G4/3rd Revision Notes (for reference)",
     "3G3/Keywords/未命名.md",
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
-    "3G3/Compiled_Revision_Note_3G3",
     "3G3/3G3 2024-25 syllubus.md",
     "3F7/1737553112899.png",
     "3F7/1737546596841.png",
