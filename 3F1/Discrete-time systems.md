@@ -171,7 +171,31 @@ Scaling a sequence with a geometric sequence results in: $$Z[r^k u_k] = \sum_{k=
 Consider a sequence $\{u_k\}$ shifted by a delay $d$: $\mathbf{u'} = \{u_{k-d}\}$. The DTFT of the shifted sequence is $$U'(\theta) = \sum_{k=-\infty}^{\infty} u_{k-d} e^{-jk\theta} = \sum_{k'=-\infty}^{\infty} u_{k'} e^{-j(k'+d)\theta} = e^{-jd\theta} U(\theta)$$, where $k' = k - d$. Time shift for DTFT results in a multiplication by $e^{-j\theta d}$.
 
 
-# Extending DTFT time-sift
+# Extending DTFT time-shift properties to the z transform
+
+DTFT time shift results in multiplication by $e^{-j\theta d}$, and $U(\theta) = U(z)$ for $z = e^{j\theta}$ for signals that are zero at negative values. It's tempting to extend this to the z-transform as multiplication by $z^{-d}$. 
+
+However, the z-transform's one-sided definition makes things trickier. 
+- When delaying by a positive $d$, signal values formerly ignored at negative times now appear in the z-transform (unless $u_k = 0$ for $k < 0$). 
+- When advancing by a negative $d$, signal values formerly at non-negative times must now be ignored because they end up at negative times.
+
+
+
+## time delay
+
+For a time delay where $\{u'_k\} = \{u_{k-d}\}$, the z-transform is $$Z[\{u_{k-d}\}] = \sum_{k=0}^{\infty} u_{k-d} z^{-k} = u_{-d} + u_{-(d-1)}z^{-1} + ... + u_{-1}z^{-(d-1)} + \sum_{k=d}^{\infty} u_{k-d}z^{-k} = u_{-d} + u_{-(d-1)}z^{-1} + ... + u_{-1}z^{-(d-1)} + \sum_{k'=0}^{\infty} u_{k'}z^{-(k'+d)} = u_{-d} + u_{-(d-1)}z^{-1} + ... + u_{-1}z^{-(d-1)} + z^{-d}U(z)$$.
+
+For signals $\{u_k\}_{k\geq0}$ that are zero at negative values, $Z[\{u_{k-d}\}] = z^{-d}Z[\{u_k\}]$.
+
+$z^{-1}$ is therefore the **time-delay operator**.
+
+For a time advance where $\{u'_k\} = \{u_{k+d}\}$, the z-transform is $$Z[\{u_{k+d}\}] = \sum_{k=0}^{\infty} u_{k+d} z^{-k} = \sum_{k'=d}^{\infty} u_{k'} z^{-(k'-d)} = \sum_{k'=0}^{\infty} u_{k'} z^{-(k'-d)} - \sum_{k'=0}^{d-1} u_{k'} z^{-(k'-d)} = z^d U(z) - z^d u_0 - z^{d-1} u_1 - ... - zu_{d-1}$$
+
+$z$ is the time-advance operator.
+
+Time-shift properties can be used to adjust expressions for various sequences to obtain expressions in the *Information Data Book*, and can be applied repeatedly for a delay by $m$ or an advance by $m$.
+
+
 
 
 
