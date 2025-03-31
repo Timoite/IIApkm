@@ -314,7 +314,34 @@ For a real sinusoidal input $x_k = \cos(\theta k) = \frac{1}{2}(e^{j\theta k} + 
 
 # Bode diagrams
 
-For an input $x_k = \cos(\theta k)$, the steady-state output is $\tilde{y}_k = |G(e^{j\theta})|\cos(\theta k + \angle G(e^{j\theta}))$. Filter amplification and phase shift can be characterized at each frequency using Bode diagrams. Bode diagrams provide a good representation of system behavior since every input signal can be decomposed into a sum of sinusoids. Since $\cos(\theta k) = \cos((\theta + 2\pi)k)$, going more than a complete revolution is redundant. Negative frequencies mirror positive frequencies for real-valued signals, so Bode diagrams are generally limited to the frequency interval $[0, \pi]$.
+For an input $x_k = \cos(\theta k)$, the steady-state output is $\tilde{y}_k = |G(e^{j\theta})|\cos(\theta k + \angle G(e^{j\theta}))$. 
+
+Filter amplification and phase shift can be characterized at each frequency using Bode diagrams. 
+
+![[Pasted image 20250331174941.png]]
+
+Bode diagrams provide a good representation of system behavior since every input signal can be decomposed into a sum of sinusoids.
+
+Since $\cos(\theta k) = \cos((\theta + 2\pi)k)$, **going more than a complete revolution is redundant**. Negative frequencies mirror positive frequencies for real-valued signals, so Bode diagrams are generally limited to the frequency interval $[0, \pi]$.
+
+![[Pasted image 20250331175152.png]]
+
+
+Hints:
+*   **Magnitude Response:** Product of distances from zeros to $e^{j\theta}$ divided by product of distances from poles to $e^{j\theta}$ (sums/subtractions in dB).
+*   **Phase Response:** Sum of angles from zeros to $e^{j\theta}$ minus sum of angles from poles to $e^{j\theta}$.
+*   **Resonance/Null:** Proximity of $e^{j\theta}$ to a pole causes resonance, to a zero causes a null.
+*   **Digital Systems:** No simple rules for Bode diagrams; use numerical tools.
+
+
+## To log or not to log
+
+*   **Continuous-time Bode plots:** Use logarithmic frequency scale (0 to $\infty$).
+*   **Discrete-time Bode plots:** Choice of linear or logarithmic frequency scale (0 to $\pi$ normalized, 0 to $f_s/2$ actual) depends on the application.
+
+
+
+
 
 
 
