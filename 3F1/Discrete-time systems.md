@@ -294,7 +294,9 @@ For a discrete-time system $G$ with a rational transfer function $$G(z) = \frac{
 The logical sequence of proof is (1) implies (2), (2) implies (3), and (3) implies (1).
 
 
+---
 
+# Fin
 
 
 
