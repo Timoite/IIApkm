@@ -58,6 +58,54 @@ A Finite Impulse Response (FIR) is represented as $$\{g_k\}_{k \geq 0} = \{g_0, 
 If $\{g_k\}_{k \geq 0}$ is a semi-infinite sequence where $g_k = 0$ for $k < 0$ (notice that FIR/IIR are all semi-infinite.) , then $y_k = \sum_{n=0}^{k} g_n u_{k-n}$, and the current output depends only on current and past inputs, making the LTI system causal.
 
 
+# Causality
+
+Systems operating as a function of time in real-time are always causal. However, "real-world systems" are not always causal. For example, in **image processing**, the sequence index $k$ often relates to pixel location rather than time, leading to non-causal systems. Signal processing systems operating on **stored or buffered data** can also work with non-causal systems, offering advantages. Signal storage and buffering enhance digital signal processing compared to continuous signal processing. 
+	Control engineers prioritize real-time systems, making causality essential.
+
+
+
+---
+
+# Z-Tranform and DTFT
+
+# Convolution and Polynomial Multiplication
+The convolution of two finite length signals, $c = (c_0, c_1)$ and $u = (u_0, u_1, u_2)$, results in $y = c * u$, where:
+
+$y_0 = c_0 u_0$
+$y_1 = c_0 u_1 + c_1 u_0$
+$y_2 = c_0 u_2 + c_1 u_1$
+$y_3 = c_1 u_2$
+$y_k = 0$ for $k < 0$ and for $k > 3$
+
+This mirrors polynomial multiplication. If we have two polynomials $C(x) = c_0 + c_1x$ and $U(x) = u_0 + u_1x + u_2x^2$, their product $Y(x) = C(x)U(x)$ is:
+
+$Y(x) = c_0u_0 + (c_0u_1 + c_1u_0)x + (c_0u_2 + c_1u_1)x^2 + (c_1u_2)x^3$
+
+Semi-infinite sequences can be mapped to power series, such as $u(D) = u_0 + u_1D + u_2D^2 + u_3D^3...$. The convolution of semi-infinite sequences is equivalent to the multiplication of power series:
+$$c(D)u(D) = (\sum_{k=0}^{\infty} c_kD^k)(\sum_{m=0}^{\infty} u_mD^m) = \sum_{k=0}^{\infty} \sum_{m=0}^{\infty} c_ku_mD^{k+m} = \sum_{k=0}^{\infty} \sum_{n=k}^{\infty} c_ku_{n-k}D^n = \sum_{n=0}^{\infty} (\sum_{k=0}^{n} c_ku_{n-k})D^n = \sum_{n=0}^{\infty} y_nD^n$$
+
+where $y_n = \sum_{k=0}^{n} c_ku_{n-k}$, which means $y = c * u$.
+
+
+So why transforming signals? 
+
+Representing sequences as power series is a common technique in engineering and mathematics, used in generating functions in combinatorics, D-transforms in error correction, and **z-transforms and DTFT in digital control and signal processing**. 
+
+**Power series** serve as substitute representations of sequences, hence the term "transform". 
+
+# Representing sequences as power series
+A formal power series uses a formal variable, such as $D$, without assigning a value to it. Formal power series harness computation rules for power series; 
+
+for instance, $$\frac{1}{1-D} = 1 + D + D^2 + D^3...$$ always holds. Non-formal power series are only true if $|D| < 1$. 
+
+Formal power series are sufficient for mapping convolutions to multiplications without assigning values or worrying about convergence, which is used for generating functions and D transforms. In z-transform/DTFT, a value is assigned to the variable $z/e^{j\theta}$, making it a power series with properties beyond converting convolutions to multiplications, such as indicating stability and determining steady-state responses.
+
+
+
+
+
+
 
 
 
