@@ -243,6 +243,22 @@ Fourier series are analogous to the DTFT (or z-transform on the unit circle) **w
 Applying the Laplace transform to a "train of impulses" sampled signal $w_s(t) = \sum_{k=0}^{\infty} w(kT)\delta(t - kT)$ yields $$W_s(s) = \sum_{k=0}^{\infty} w(kT)e^{-skT} = \sum_{k=0}^{\infty} w_k z^{-k}$$The z-transform is equivalent to the Laplace transform of the sampled "impulse train" signal, with a mapping from the Laplace domain to the z-domain defined by $s \rightarrow z = e^{sT}$.
 
 
+---
+
+# System transfer function & stability
+
+A Linear Time-Invariant System (LTIS) described by linear difference equations in canonical form $$y_k + a_1y_{k-1} + ... + a_ny_{k-n} = b_0x_k + ... + b_mx_{k-m}$$, subject to zero initial conditions ($y_k = x_k = 0$ for $k < 0$),
+gives in the z-domain $$Y(z) + a_1z^{-1}Y(z) + ... + a_nz^{-n}Y(z) = b_0X(z) + ... + b_mz^{-m}X(z)$$
+and is hence described by a transfer function: $G(z) = \frac{Y(z)}{X(z)} = \frac{b_0 + b_1z^{-1} + ... + b_mz^{-m}}{1 + a_1z^{-1} + ... + a_nz^{-n}}$. This ratio is independent of $X(z)$.
+
+![[Pasted image 20250331164253.png]]
+
+
+# FIR/IIR in the z domain
+
+- An FIR (finite impulse response) filter satisfies $a_n = 0$ for $n \neq 1$, meaning $G(z)$ has only a numerator and no denominator, making it a feed-forward only system where the output $y_k$ only depends on current and past values of the input $x_k, x_{k-1}, ...$ but not on past values of the output $y_{k-1}, y_{k-2}, ...$. 
+- An IIR (infinite impulse response) filter has an infinite length delta response as a result of feedback.
+
 
 
 
