@@ -20,8 +20,25 @@
               "icon": "lucide-file",
               "title": "Linear Algebra"
             }
+          },
+          {
+            "id": "9b9771e293ebc2dd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "3F1/3rd notes/3F1 by T.L..pdf",
+                "page": 1,
+                "left": -17,
+                "top": 845,
+                "zoom": 0.860738255033557
+              },
+              "icon": "lucide-file-text",
+              "title": "3F1 by T.L."
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0f60276b302708f0",
@@ -95,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3M1/Revision/Linear Algebra.md",
+                "file": "3F1/3rd notes/3F1 by T.L..pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Linear Algebra"
+              "title": "Backlinks for 3F1 by T.L."
             }
           },
           {
@@ -181,13 +197,21 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "80b292d65e82f2c3",
+  "active": "9b9771e293ebc2dd",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "3F1/Digital Filtering.md",
+    "3F1/3rd notes",
+    "3F1/3rd notes/3F1 by T.L..pdf",
+    "3F1/Discrete-time systems.md",
+    "3F1/Discrete and Continuous Random Processes.md",
+    "3F1/Discrete Fourier Transform.md",
     "3M1/Revision/Linear Algebra.md",
-    "Pasted image 20250329170355.png",
-    "Pasted image 20250329160215.png",
+    "attachments",
+    "3F1",
+    "attachments/Pasted image 20250329160215.png",
     "3M1/Revision/Non-linear constrained optimization.md",
+    "attachments/Pasted image 20250329170355.png",
+    "conflict-files-obsidian-git.md",
     "3F7/3F7 information theory.md",
     "3M1/Revision",
     "3M1",
@@ -197,10 +221,6 @@
     "3G3/Keywords/未命名.md",
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
     "3G3/Compiled_Revision_Note_3G3",
-    "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
-    "3G3/3rd Revision Notes for reference",
-    "3F3/Reference Notes/3F3 by M.S..pdf",
-    "3F3/Reference Notes",
     "3G3/3G3 2024-25 syllubus.md",
     "3F7/1737553112899.png",
     "3F7/1737546596841.png",
@@ -223,10 +243,6 @@
     "3G3/Keywords/dendrites.md",
     "3G3/Keywords/postsynaptic receptor.md",
     "3G3/Keywords/sensitization.md",
-    "3G3/Keywords/norepinephrine.md",
-    "3G3/Keywords/signals (excitatory or inhibitory).md",
-    "3G3/Keywords/neurotransmitter.md",
-    "3G3/Keywords/memory.md",
-    "3G3/Keywords/ion channels.md"
+    "3G3/Keywords/norepinephrine.md"
   ]
 }
