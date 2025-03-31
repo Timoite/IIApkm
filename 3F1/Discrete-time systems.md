@@ -363,6 +363,29 @@ The proof of the Nyquist stability criterion involves these steps:
 ![[Pasted image 20250331180704.png]]
 
 
+*   **Zeros inside unit circle:** Angle of $G(e^{j\theta})$ goes from 0 to $2\pi$ (counter-clockwise).
+*   **Poles inside unit circle:** Angle of $G(e^{j\theta})$ goes from 0 to $-2\pi$ (clockwise).
+*   **Zeros/poles on unit circle:** Phase jumps by $\pi$ or $-\pi$, causing encirclement.
+*   **Encirclement behavior:** "Passes through infinity" in the complex plane.
+
+Let $N_{z,i}$ be the number of zeros of $F(z)$ inside the unit circle, and $N_{p,i}$ be the number of poles of $F(z)$ inside the unit circle (including the unit circle). 
+
+The overall increase $\alpha$ of $\angle F(e^{j\theta})$ as $\theta$ increases from 0 to $2\pi$ (or $-\pi$ to $\pi$) is $$\alpha = 2\pi(N_{z,i} - N_{p,i})$$
+The number of encirclements $C$ of the origin is $C = N_{z,i} - N_{p,i}$.
+
+
+
+## Closed loop stability
+
+Given $1 + KG(z) = \frac{a(z) + Kb(z)}{a(z)}$, where the closed-loop poles are solutions of $1 + KG(z) = 0$:
+
+*   The zeros of $1 + KG(z)$ (when $a(z) + Kb(z) = 0$) are the $\boxed{\text{closed loop poles}}$.
+*   The poles of $1 + KG(z)$ (when $a(z) = 0$) are the $\boxed{\text{open loop poles}}$.
+
+Let $N_{z,i}$ and $N_{p,i}$ be the number of zeros and poles of $1 + KG(z)$ inside the unit circle, respectively. Then $N_{cp,i} = N_{z,i}$ is the number of $\boxed{\text{closed loop poles}}$ inside the unit circle, and $N_{op,i} = N_{p,i}$ is the number of $\boxed{\text{open loop poles}}$ inside the unit circle. 
+
+The number of encirclements $C$ of the origin by $1 + KG(e^{j\theta})$ is $$C = N_{z,i} - N_{p,i} = N_{cp,i} - N_{op,i}$$.
+
 
 
 
