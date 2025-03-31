@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Linear Algebra"
             }
+          },
+          {
+            "id": "64430150e236e54d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +110,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "conflict-files-obsidian-git.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
@@ -159,8 +175,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,14 +196,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "80b292d65e82f2c3",
+  "active": "64430150e236e54d",
   "lastOpenFiles": [
+    "3M1/Revision/Linear Algebra.md",
+    "conflict-files-obsidian-git.md",
     "Pasted image 20250329170355.png",
     "Pasted image 20250329160215.png",
     "3M1/Revision/Non-linear constrained optimization.md",
     "3F7/3F7 information theory.md",
-    "conflict-files-obsidian-git.md",
-    "3M1/Revision/Linear Algebra.md",
     "3M1/Revision",
     "3M1",
     "3G4/3rd Revision Notes (for reference)/3G4 by T.L..pdf",
@@ -219,7 +234,6 @@
     "3G3/Keywords/habituation.md",
     "3G3/Keywords/depolarization.md",
     "3G3/Keywords/attachments/9622.png",
-    "3G3/Keywords/attachments/94126.png",
     "3G3/Keywords/hippocampus.md",
     "3G3/Keywords/dendrites.md",
     "3G3/Keywords/postsynaptic receptor.md",
