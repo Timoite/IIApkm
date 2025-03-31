@@ -232,7 +232,15 @@ The DTFT is defined as $S(\theta) = \sum_{k=-\infty}^{\infty} s_k e^{-j\theta k}
 
 A complex Fourier Series (for $T = 2\pi$) is defined as $f(t) = \sum_{k=-\infty}^{\infty} c_k e^{jkt}$ and $c_k = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(t)e^{-jkt} dt$
 
-Fourier series, though not initially presented as a transform, possess transform-like properties, mapping continuous periodic functions to discrete coefficients, sharing properties like conjugate symmetry and shift properties. Fourier series are analogous to the DTFT (or z-transform on the unit circle) with time and frequency interchanged.
+Fourier series, though not initially presented as a transform, possess transform-like properties, mapping **continuous periodic functions** to discrete coefficients, sharing properties like **conjugate symmetry and shift properties**. 
+
+Fourier series are analogous to the DTFT (or z-transform on the unit circle) **with time and frequency interchanged**.
+
+
+
+# The Laplace transform and the z transform
+
+Applying the Laplace transform to a "train of impulses" sampled signal $w_s(t) = \sum_{k=0}^{\infty} w(kT)\delta(t - kT)$ yields $$W_s(s) = \sum_{k=0}^{\infty} w(kT)e^{-skT} = \sum_{k=0}^{\infty} w_k z^{-k}$$The z-transform is equivalent to the Laplace transform of the sampled "impulse train" signal, with a mapping from the Laplace domain to the z-domain defined by $s \rightarrow z = e^{sT}$.
 
 
 
