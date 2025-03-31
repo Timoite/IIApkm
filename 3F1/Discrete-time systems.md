@@ -339,7 +339,28 @@ Hints:
 *   **Continuous-time Bode plots:** Use logarithmic frequency scale (0 to $\infty$).
 *   **Discrete-time Bode plots:** Choice of linear or logarithmic frequency scale (0 to $\pi$ normalized, 0 to $f_s/2$ actual) depends on the application.
 
+---
 
+# Nyquist stability theorem
+
+The closed-loop system is stable if and only if the number of encirclements of $-\frac{1}{K}$ by $G(e^{j\theta})$ as $\theta$ increases from $-\pi$ to $\pi$ equals the number of open-loop poles strictly outside the unit circle.
+
+$$\boxed{\text{Stability} \iff \text{Enc}(-\frac{1}{K}, G(e^{j\theta})) = \text{Poles outside unit circle}}$$
+
+The proof of the Nyquist stability criterion involves these steps:
+
+1.  Poles/zeros and encirclements of the origin.
+2.  Counting encirclements of the origin.
+3.  Poles and zeros of $1 + KG(z)$ and corresponding encirclements.
+4.  Polynomial degrees vs. numbers of poles/zeros.
+5.  Pole arithmetic: how do closed and open loop stable/unstable poles add up?
+6.  Shifting the graph to $-1/K$.
+7.  The Nyquist criterion.
+
+
+## The encirclement property
+
+![[Pasted image 20250331180704.png]]
 
 
 
