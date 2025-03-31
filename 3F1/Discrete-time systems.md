@@ -127,7 +127,56 @@ $$U(z) = \frac{1}{1 - z^{-1}} = \frac{z}{z - 1}$$
 
 Most textbooks define the z-transform as a one-sided sum, but some use a two-sided sum from $-\infty$ to $\infty$, which is relevant for **stochastic signals analysis**. 
 
-For example, $\{u_k\}_{k\geq0} = \{1, 1, 1, ...\}$ has a z-transform of $U(z) = \frac{1}{1 - z^{-1}} = \frac{z}{z - 1}$, while $\{v_k\}_{k<0} = \{..., 1, 1, 1\}$ has a z-transform of $V(z) = \sum_{k=-\infty}^{-1} z^{-k} = \sum_{k=1}^{\infty} z^{k} = \frac{z}{z - 1}$. These two signals have the same two-sided z-transform, distinguished only by their ROC: $|z| > 1$ for $U(z)$ and $|z| < 1$ for $V(z)$. For two-sided z-transforms, the ROC cannot be ignored. The two-sided transform is the DTFT.
+For example, $\{u_k\}_{k\geq0} = \{1, 1, 1, ...\}$ has a z-transform of $$U(z) = \frac{1}{1 - z^{-1}} = \frac{z}{z - 1}$$, while $\{v_k\}_{k<0} = \{..., 1, 1, 1\}$ has a z-transform of $$V(z) = \sum_{k=-\infty}^{-1} z^{-k} = \sum_{k=1}^{\infty} z^{k} = \frac{z}{z - 1}$$. These two signals have the same two-sided z-transform, distinguished only by their ROC: $|z| > 1$ for $U(z)$ and $|z| < 1$ for $V(z)$. For two-sided z-transforms, the ROC cannot be ignored. The two-sided transform is the DTFT.
+
+
+# DTFT
+
+For a signal $\{u_k\}$, the Discrete-Time Fourier Transform (DTFT) is defined as $$U(\theta) = \sum_{k=-\infty}^{\infty} u_k e^{-jk\theta}$$
+Its properties are generally identical to the z-transform properties, and in some cases simpler (e.g., time shift properties). If a signal is zero for negative values, e.g., $\{u_k\}_{k\geq0}$, then $U(\theta) = U(z)$ for $z = e^{j\theta}$, i.e., $U(\theta) = U(e^{j\theta})$. 
+
+For signals that are zero at non-negative values, the DTFT is **equivalent to the z-transform on the unit circle**.
+
+
+
+# Linearity of the z transform and DTFT
+
+For any scalars $\alpha, \beta$, the z-transform is linear:
+$$Z[\alpha\{x_k\} + \beta\{y_k\}] = \alpha Z[\{x_k\}] + \beta Z[\{y_k\}]$$
+
+If the signal definition involves a parameter $\alpha$, then $Z\left[\frac{d}{d\alpha} u_k\right] = \frac{d}{d\alpha} U(z)$.
+
+The DTFT obeys the same properties.
+
+
+
+We know that $Z[\{q^k\}_{k\geq0}] = \frac{1}{1 - qz^{-1}}$. Using the differentiation property of linearity:
+
+$$Z\left[ \frac{d}{dq} [1, q, q^2, ...] \right] = Z[0, 1, 2q, 3q^2, ...] = \frac{d}{dq} \frac{1}{1 - qz^{-1}} = \frac{z^{-1}}{(1 - qz^{-1})^2}$$
+
+The z-transform of the signal $u_0 = 0$, $u_k = kq^{k-1}$ for $k > 0$ is $\frac{z^{-1}}{(1 - qz^{-1})^2}$.
+
+For the ramp sequence $[0, 1, 2, 3, ...]$, where $u_k = k$ for $k \geq 0$, the z-transform is $\frac{z^{-1}}{(1 - z^{-1})^2}$.
+
+The differentiation trick can be used repeatedly to obtain $Z\left[ \frac{(k + m - 2)!}{(k - 1)!(m - 1)!} \right] = \frac{z^{-1}}{(1 - z^{-1})^m}$ for all $m \geq 1$.
+
+Using linearity properties, the z-transform of $\cos \alpha k$ is:
+$$Z[\cos \alpha k] = Z[\frac{1}{2}(e^{j\alpha k} + e^{-j\alpha k})] = \frac{1}{2} \left( \frac{1}{1 - e^{j\alpha} z^{-1}} + \frac{1}{1 - e^{-j\alpha} z^{-1}} \right) = \frac{1}{2} \frac{1 - e^{-j\alpha} z^{-1} + 1 - e^{j\alpha} z^{-1}}{(1 - e^{j\alpha})(1 - e^{-j\alpha})} = \frac{1 - z^{-1} \cos \alpha}{1 - 2z^{-1} \cos \alpha + z^{-2}}$$
+
+Similarly, $Z[\sin \alpha k] = \frac{z^{-1} \sin \alpha}{1 - 2z^{-1} \cos \alpha + z^{-2}}$.
+
+Scaling a sequence with a geometric sequence results in: $$Z[r^k u_k] = \sum_{k=0}^{\infty} u_k r^k z^{-k} = \sum_{k=0}^{\infty} u_k (r^{-1}z)^{-k} = U(r^{-1}z)$$
+# Time shift properties of DTFT
+
+Consider a sequence $\{u_k\}$ shifted by a delay $d$: $\mathbf{u'} = \{u_{k-d}\}$. The DTFT of the shifted sequence is $$U'(\theta) = \sum_{k=-\infty}^{\infty} u_{k-d} e^{-jk\theta} = \sum_{k'=-\infty}^{\infty} u_{k'} e^{-j(k'+d)\theta} = e^{-jd\theta} U(\theta)$$, where $k' = k - d$. Time shift for DTFT results in a multiplication by $e^{-j\theta d}$.
+
+
+# Extending DTFT time-sift
+
+
+
+
+
 
 
 
