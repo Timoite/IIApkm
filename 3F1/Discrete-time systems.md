@@ -384,7 +384,31 @@ Given $1 + KG(z) = \frac{a(z) + Kb(z)}{a(z)}$, where the closed-loop poles are s
 
 Let $N_{z,i}$ and $N_{p,i}$ be the number of zeros and poles of $1 + KG(z)$ inside the unit circle, respectively. Then $N_{cp,i} = N_{z,i}$ is the number of $\boxed{\text{closed loop poles}}$ inside the unit circle, and $N_{op,i} = N_{p,i}$ is the number of $\boxed{\text{open loop poles}}$ inside the unit circle. 
 
-The number of encirclements $C$ of the origin by $1 + KG(e^{j\theta})$ is $$C = N_{z,i} - N_{p,i} = N_{cp,i} - N_{op,i}$$.
+The number of encirclement $C$ of the origin by $1 + KG(e^{j\theta})$ is $$C = N_{z,i} - N_{p,i} = N_{cp,i} - N_{op,i}$$
+
+# Methodology of nyquist theorem
+
+1.  Draw a pole-zero diagram of the open-loop system $G(z)$.
+2.  Count poles strictly outside the unit circle: this is the number $C$ of encirclements of $-1/K$ necessary to achieve stability.
+3.  Draw the Nyquist locus of $G(e^{j\theta})$ for $\theta$ from 0 to $\pi$.
+4.  Work out the values of $G(e^{j\theta})$ for $\theta = 0$, $\theta = \pi$ and any key points of interest and annotate those on the graph.
+5.  Complete the graph for $\theta$ from $\pi$ to $2\pi$ (or, equivalently, $-\pi$ to 0) by symmetry.
+6.  If the open loop system has poles on the unit circle, work out the asymptotes as the locus goes to infinity.
+7.  Apply the Nyquist stability criterion to determine range(s) of $K$ for which the closed loop system is stable.
+
+To easily remember the Nyquist stability criterion methodology, think of it as a 7-step process:
+
+1.  **Diagram:** Draw the pole-zero diagram.
+2.  **Count:** Count unstable poles (outside the unit circle).
+3.  **Locus:** Sketch the Nyquist locus (0 to $\pi$).
+4.  **Values:** Find key values on the locus.
+5.  **Symmetry:** Complete the locus by symmetry.
+6.  **Asymptotes:** Consider poles on the unit circle and asymptotes.
+7.  **Criterion:** Apply the Nyquist criterion to find the stable range of K.
+
+A mnemonic could be: **D**on't **C**all **L**awyers, **V**alue **S**afety, **A**lways **C**areful.
+
+
 
 
 
