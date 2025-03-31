@@ -260,6 +260,29 @@ and is hence described by a transfer function: $G(z) = \frac{Y(z)}{X(z)} = \frac
 - An IIR (infinite impulse response) filter has an infinite length delta response as a result of feedback.
 
 
+# Delta response and poles
+
+For a Linear Time-Invariant (LTI) system $G(z)$ with a delta input $\delta_k = (1, 0, 0, ...)$ which transforms to $\Delta(z) = 1$, the output $y$ can be defined as $$y = Z^{-1}[Y(z)] = Z^{-1}[G(z)\Delta(z)] = Z^{-1}[G(z)]$$The poles of $G(z)$ determine **the system's response to a pulse.**
+
+
+![[Pasted image 20250331165146.png]]
+
+![[Pasted image 20250331165219.png]]
+
+# Properties
+
+For a system with repeated poles, where $G(z) = \frac{1}{(1-pz^{-1})^2}$, it can be rewritten as $G(z) = \frac{1}{1-pz^{-1}} + \frac{pz^{-1}}{(1-pz^{-1})^2}$, and its inverse Z-transform is $p^k + kp^k$. 
+
+The distance of poles from the origin indicates the decay rate, complex poles inside the unit circle result in lightly damped oscillation, and oscillation is possible for real poles on the negative real axis. A signal $\{u_k\}$ is considered bounded if there exists a positive constant $M$ such that $|u_k| < M$ for all $k$.
+
+
+# BIBO Stability
+A discrete-time system is considered stable in the Bounded Input Bounded Output (BIBO) sense if bounded inputs result in bounded outputs. 
+
+For any constant $M$, there exists a constant $N$ such that for any input signal bounded by $M$, the output is bounded by $N$. If a bounded input produces an unbounded output, the system is unstable. Some unstable systems may not have a single unbounded output, but a collection of input signals bounded by $M$ can produce outputs that cannot be bounded by any single $N$.
+
+
+
 
 
 
