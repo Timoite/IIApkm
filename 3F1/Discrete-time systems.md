@@ -23,7 +23,19 @@ Signal processing techniques are independent of unit or sampling interval.
 
 # Discrete Time System
 
-The definition of a Linear Time-Invariant (LTI) system $L$ extends naturally from continuous to discrete time; it is linear if $L(\alpha_1 u_k + \alpha_2 u'_k) = \alpha_1 y_k + \alpha_2 y'_k$ and time-invariant if $L(u_{k+m}) = y_{k+m}$ for any $m$, with discrete LTI systems governed by linear difference equations such as $y_k + \alpha y_{k-1} + \beta y_{k-2} = u_k$.
+The definition of a Linear Time-Invariant (LTI) system $L$ extends naturally from continuous to discrete time; it is 
+- linear if $L(\alpha_1 u_k + \alpha_2 u'_k) = \alpha_1 y_k + \alpha_2 y'_k$ and 
+- time-invariant if $L(u_{k+m}) = y_{k+m}$ for any $m$, 
+- with discrete LTI systems governed by linear difference equations such as $y_k + \alpha y_{k-1} + \beta y_{k-2} = u_k$.
+
+
+# Kronecker Delta signal and response
+The Kronecker delta signal, denoted as ${\delta_k}$, is defined as 1 when $k = 0$ and 0 otherwise, and $\delta_k = 0$ for $k < 0$. 
+
+Any input signal ${u_k}$ to a Linear Time-Invariant System (LTIS) can be expressed as $u_k = \sum_{n=-\infty}^{\infty} \delta_n u_{k-n}$ for every $k$. 
+
+The output signal ${y_k}$ satisfies $y_k = \sum_{n=-\infty}^{\infty} g_n u_{k-n}$ for every $k$, where ${g_k}$ represents the **delta response of the LTIS**, and is equivalent to the difference equation in defining/describing the LTIS.
+
 
 
 
