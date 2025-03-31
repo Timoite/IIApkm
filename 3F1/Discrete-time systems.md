@@ -202,6 +202,19 @@ $\lim_{z \to \infty} U(z) = \lim_{z \to \infty} \sum_{k=0}^{\infty} u_k z^{-k} =
 
 
 
+---
+
+# Z-transform properties
+
+The z-transform, similar to the Fourier transform, exhibits conjugate symmetry when applied to a real discrete-time signal $s$, where $$S(\overline{z}) = \overline{S(z)}$$
+On the unit circle, this results in $|S(e^{-j\theta})| = |S(e^{j\theta})|$ and $\angle S(e^{-j\theta}) = -\angle S(e^{j\theta})$.
+
+
+# Reverse symmetry property
+
+The DTFT possesses a reverse symmetry property where, if $$s_{-k} = \overline{s_k}$$, then its DTFT $S(\theta)$ is **real**. 
+
+
 
 
 
