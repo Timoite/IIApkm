@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Linear Algebra"
             }
-          },
-          {
-            "id": "64430150e236e54d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "3M1/Revision/Linear Algebra.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for conflict-files-obsidian-git"
+              "title": "Backlinks for Linear Algebra"
             }
           },
           {
@@ -196,10 +181,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "64430150e236e54d",
+  "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
-    "3M1/Revision/Linear Algebra.md",
     "conflict-files-obsidian-git.md",
+    "3M1/Revision/Linear Algebra.md",
     "Pasted image 20250329170355.png",
     "Pasted image 20250329160215.png",
     "3M1/Revision/Non-linear constrained optimization.md",
