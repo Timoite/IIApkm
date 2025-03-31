@@ -302,6 +302,21 @@ If all poles of $(z - 1)Y(z)$ lie strictly inside the unit circle, then $$\lim_{
 
 
 
+## steady-state response to a complex sinusoidal input
+For a complex sinusoidal input $x_k = e^{j\theta k}$, the Z-transform is $X(z) = \frac{1}{1 - e^{j\theta}z^{-1}}$. Given a system $G(z) = \frac{b(z)}{(z-p_1)(z-p_2)...(z-p_n)}$, the output $Y(z) = G(z)X(z) = \frac{G(e^{j\theta})}{1 - e^{j\theta}z^{-1}} + \text{terms of the form } \frac{\beta_i}{1 - p_i z^{-1}}$. The output $y_k = G(e^{j\theta})e^{j\theta k} + \text{terms decaying to 0 as } k \to \infty$. The stationary output is $$\tilde{y}_k = G(e^{j\theta})e^{j\theta k} = |G(e^{j\theta})|e^{j(\theta k + \angle G(e^{j\theta}))}$$
+
+
+## steady-state response to a real sinusoidal input
+
+For a real sinusoidal input $x_k = \cos(\theta k) = \frac{1}{2}(e^{j\theta k} + e^{-j\theta k})$, the stationary output $\tilde{y}_k$ is given by $\tilde{y}_k = \frac{|G(e^{j\theta})|}{2}(e^{j(\theta k + \angle G(e^{j\theta}))} + e^{-j(\theta k + \angle G(e^{j\theta}))}) = |G(e^{j\theta})|\cos(\theta k + \angle G(e^{j\theta}))$. The filter attenuates the sinusoidal input $\cos(\theta k)$ by a factor $|G(e^{j\theta})|$ and shifts its phase by a factor $\angle G(e^{j\theta})$.
+
+
+
+# Bode diagrams
+
+For an input $x_k = \cos(\theta k)$, the steady-state output is $\tilde{y}_k = |G(e^{j\theta})|\cos(\theta k + \angle G(e^{j\theta}))$. Filter amplification and phase shift can be characterized at each frequency using Bode diagrams. Bode diagrams provide a good representation of system behavior since every input signal can be decomposed into a sum of sinusoids. Since $\cos(\theta k) = \cos((\theta + 2\pi)k)$, going more than a complete revolution is redundant. Negative frequencies mirror positive frequencies for real-valued signals, so Bode diagrams are generally limited to the frequency interval $[0, \pi]$.
+
+
 
 
 
