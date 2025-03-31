@@ -196,6 +196,9 @@ $z$ is the time-advance operator.
 Time-shift properties can be used to adjust expressions for various sequences to obtain expressions in the *Information Data Book*, and can be applied repeatedly for a delay by $m$ or an advance by $m$.
 
 
+# Initial Value Theorem
+
+$\lim_{z \to \infty} U(z) = \lim_{z \to \infty} \sum_{k=0}^{\infty} u_k z^{-k} = \lim_{z \to \infty} (u_0 + \frac{u_1}{z} + \frac{u_2}{z^2} + ...) = u_0$
 
 
 
