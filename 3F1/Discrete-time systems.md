@@ -216,6 +216,24 @@ The DTFT possesses a reverse symmetry property where, if $$s_{-k} = \overline{s_
 
 
 
+# Inverse z transform
+
+Several methods exist to invert the z-transform: 
+- using partial fractions, 
+- polynomial division, 
+- Taylor expansion
+
+The DTFT can be inverted using all the above methods, as well as the DTFT inversion formula: $$s_k = \frac{1}{2\pi} \int_{-\pi}^{\pi} S(\theta)e^{jk\theta} d\theta$$
+
+
+# The DTFT and Fourier series
+
+The DTFT is defined as $S(\theta) = \sum_{k=-\infty}^{\infty} s_k e^{-j\theta k}$ and $s_k = \frac{1}{2\pi} \int_{-\pi}^{\pi} S(\theta)e^{jk\theta} d\theta$
+
+A complex Fourier Series (for $T = 2\pi$) is defined as $f(t) = \sum_{k=-\infty}^{\infty} c_k e^{jkt}$ and $c_k = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(t)e^{-jkt} dt$
+
+Fourier series, though not initially presented as a transform, possess transform-like properties, mapping continuous periodic functions to discrete coefficients, sharing properties like conjugate symmetry and shift properties. Fourier series are analogous to the DTFT (or z-transform on the unit circle) with time and frequency interchanged.
+
 
 
 
