@@ -279,7 +279,19 @@ The distance of poles from the origin indicates the decay rate, complex poles in
 # BIBO Stability
 A discrete-time system is considered stable in the Bounded Input Bounded Output (BIBO) sense if bounded inputs result in bounded outputs. 
 
-For any constant $M$, there exists a constant $N$ such that for any input signal bounded by $M$, the output is bounded by $N$. If a bounded input produces an unbounded output, the system is unstable. Some unstable systems may not have a single unbounded output, but a collection of input signals bounded by $M$ can produce outputs that cannot be bounded by any single $N$.
+**For any constant $M$, there exists a constant $N$ such that for any input signal bounded by $M$, the output is bounded by $N$.** 
+
+If a bounded input produces an unbounded output, the system is unstable. Some unstable systems may not have a single unbounded output, but a collection of input signals bounded by $M$ can produce outputs that cannot be bounded by any single $N$.
+
+
+# Theorem
+
+For a discrete-time system $G$ with a rational transfer function $$G(z) = \frac{b(z)}{a(z)} = \frac{b_0 + ... + b_m z^{-m}}{1 + a_1 z^{-1} + ... + a_n z^{-n}}$$ with no common factors between $b(z)$ and $a(z)$, and a pulse response $\{g_k\}_{k \geq 0}$, the following conditions are equivalent: 
+1. $G$ is stable, 
+2. all roots $p_i$ of $a(z)$ (poles) satisfy $|p_i| < 1$, 
+3. and $\sum_{k=0}^{\infty} |g_k|$ is finite. 
+
+The logical sequence of proof is (1) implies (2), (2) implies (3), and (3) implies (1).
 
 
 
