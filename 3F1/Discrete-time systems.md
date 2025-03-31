@@ -296,7 +296,11 @@ The logical sequence of proof is (1) implies (2), (2) implies (3), and (3) impli
 
 ---
 
-# Fin
+# Final value Theorem
+
+If all poles of $(z - 1)Y(z)$ lie strictly inside the unit circle, then $$\lim_{k \to \infty} y_k = \lim_{z \to 1} (z - 1)Y(z)$$It is crucial to **verify the pole locations** of $(z - 1)Y(z)$ before applying the Final Value Theorem (FVT).
+
+
 
 
 
