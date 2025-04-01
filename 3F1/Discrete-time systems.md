@@ -446,6 +446,34 @@ Common algebraic transformation involves more than that. There are three types:
 Forward could be unstable, while backward is always stable, so does Tustin.
 
 
+# Bilinear Transform and Frequency Warping Summary
+
+The bilinear transform maps between continuous-time (s-domain) and discrete-time (z-domain) systems using the relationship:
+$s = \frac{2}{T} \cdot \frac{z-1}{z+1}$ or $s = \frac{z-1}{z+1}$ (normalized)
+
+
+# Bilinear Transform and Frequency Warping Summary
+
+The bilinear transform maps between continuous-time (s-domain) and discrete-time (z-domain) systems using the relationship:
+$$s = \frac{2}{T} \cdot \frac{z-1}{z+1}$$ 
+or in normalized form:
+$$s = \frac{z-1}{z+1}$$
+
+## Key Points to Remember:
+
+- **Stability Preservation**: The bilinear transform preserves stability properties. Points in the left half of the s-plane ($\lambda < 0$) map to inside the unit circle in the z-plane ($|z| < 1$), maintaining stability.
+
+- **Frequency Warping**: The transform introduces a nonlinear distortion in the frequency response. The relationship between analog frequency ($\omega$) and digital frequency ($\theta$) is:
+  $$\omega = \tan\left(\frac{\theta}{2}\right)$$ and $$\theta = 2\arctan(\omega)$$
+
+- **Frequency Response Mapping**: If an analog filter has frequency response $G_c(j\omega)$, the corresponding digital filter's frequency response is:
+  $$G(e^{j\theta}) = G_c\left(j\tan\left(\frac{\theta}{2}\right)\right)$$
+
+- **Pre-warping**: When designing digital filters with specific cutoff frequencies, you must pre-warp the desired digital cutoff frequency using $\theta = 2\arctan(\omega)$ to find the corresponding analog cutoff frequency before applying the transform.
+
+- **Normalized Response**: The normalized frequency response of the digital filter ($|\theta|\leq \pi$) is given by:
+  $$G(e^{j\theta}) = G_c(\psi(e^{j\theta}))$$ where $$\psi(e^{j\theta}) = j\tan\left(\frac{\theta}{2}\right)$$
+
 
 
 
