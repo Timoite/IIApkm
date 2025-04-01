@@ -420,6 +420,11 @@ For open loop poles, on the unit circles means the close loop poles are within t
 
 
 
+---
+
+# Continuous to Discrete Mappings and Interfaces
+
+- Purpose: mapping between Laplace (continuous) and z (discrete domains)
 
 
 
