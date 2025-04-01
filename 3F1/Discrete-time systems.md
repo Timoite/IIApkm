@@ -428,9 +428,12 @@ For open loop poles, on the unit circles means the close loop poles are within t
 	- transfer analog design to digital
 	- Model hybrid system systems 
 
-- Key concept: 
 
-
+## Algebraic transformation
+- Linear approximation of $e^{sT}$ gives $1+sT$, so:
+$$
+s= \frac{z-1}{T}
+$$
 
 
 
