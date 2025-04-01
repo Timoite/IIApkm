@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +183,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "80b292d65e82f2c3",
+  "active": "57e8e9cb37ee8be5",
   "lastOpenFiles": [
+    "attachments/25641.png",
     "3M1/Revision/Linear Algebra.md",
     "attachments/Pasted image 20250331160052.png",
     "attachments/Pasted image 20250331180704.png",

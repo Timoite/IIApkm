@@ -409,6 +409,18 @@ To easily remember the Nyquist stability criterion methodology, think of it as a
 A mnemonic could be: **D**on't **C**all **L**awyers, **V**alue **S**afety, **A**lways **C**areful.
 
 
+## Strictly inside/outside?
+For the Nyquist stability criterion, zeros/poles on the unit circle are considered "inside" for the proof because they cause encirclements similar to those inside the unit circle. 
+
+However, excluding only closed-loop poles strictly outside the unit circle isn't entirely accurate when expressing closed-loop system stability. Closed loop poles on the unit circle correspond to an unstable open loop pole, but can be excluded because they will be on the boundary of the stable ranges of $K$, which are **defined by strict inequalities**.
+
+For open loop poles, on the unit circles means the close loop poles are within the unit circle. So for the pole zero diagram, we need to draw the unit circle in such way that include poles on the unit circle, like below:
+
+![[25641.png]]
+
+
+
+
 
 
 
