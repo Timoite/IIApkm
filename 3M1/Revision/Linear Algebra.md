@@ -304,6 +304,43 @@ if the smallest singular value $\sigma_{min}$ is small, then the least squares s
 this is the case for full rank. if $\sigma_{min}=0$, we cannot compute a unique least squares solutions.
 
 
+---
+# PCA
+
+### Covariance matrix
+$$
+\mathbb{E} \begin{pmatrix} \begin{bmatrix} (X_1 - \mu_1)^2 & (X_1 - \mu_1)(X_2 - \mu_2) & (X_1 - \mu_1)(X_3 - \mu_3) \\ (X_2 - \mu_2)(X_1 - \mu_1) & (X_2 - \mu_2)^2 & (X_2 - \mu_2)(X_3 - \mu_3) \\ (X_3 - \mu_3)(X_1 - \mu_1) & (X_3 - \mu_3)(X_2 - \mu_2) & (X_3 - \mu_3)^2 \end{bmatrix} \end{pmatrix}
+$$
+
+
+### Sample data
+$$
+X = \begin{bmatrix}
+\uparrow & \uparrow & & \uparrow \\
+x_1 & x_2 & \dots & x_p \\
+\downarrow & \downarrow & & \downarrow
+\end{bmatrix}
+$$
+
+
+### Sample mean
+$$
+\bar{x}_j := \frac{1}{n} \sum_{i=1}^{n} X_{ij},
+$$
+
+In matrix notation:
+$$
+\bar{x} = \frac{1}{n} X^T 1_n,
+$$
+
+
+### sample covariance matrix
+$$
+\begin{aligned}
+S &= \frac{1}{n-1}(X - 1_n \bar{x}^T)^T (X - 1_n \bar{x}^T) \\
+&= \frac{1}{n-1}(X - \frac{1}{n} 1_{n \times n} X)^T (X - \frac{1}{n} 1_{n \times n} X)
+\end{aligned}
+$$
 
 
 
