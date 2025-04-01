@@ -439,11 +439,12 @@ We can replace $s$ in a continuous time system by this equation.
 Common algebraic transformation involves more than that. There are three types:
 1. Euler's method for **Forward difference**: $s= \frac{z-1}{T}$
 2. Backward difference: $s= \frac{1-z^{-1}}{T}$
-3. Bilinear (Tustin's) Transformation: $s= \frac{2}{T} \frac{z-1}{z+1}$, it works better as this is a trick for approximating quadratically.
+3. Bilinear (Tustin's) Transformation: $s= \frac{2}{T} \frac{z-1}{z+1}$ or simply $\frac{z-1}{z+1}$, it works better as this is a trick for approximating quadratically.
 
 ![[Pasted image 20250401173906.png]]
 
-1. Forward could be unstable, while backward is always stable, so does Tustin.
+Forward could be unstable, while backward is always stable, so does Tustin.
+
 
 
 

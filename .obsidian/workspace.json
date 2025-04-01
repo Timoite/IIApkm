@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0f60276b302708f0",
@@ -197,7 +198,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "57e8e9cb37ee8be5",
+  "active": "9b9771e293ebc2dd",
   "lastOpenFiles": [
     "attachments/Pasted image 20250401173906.png",
     "attachments/Pasted image 20250331180704.png",
