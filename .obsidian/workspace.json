@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "0f60276b302708f0",
@@ -198,8 +197,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "9b9771e293ebc2dd",
+  "active": "57e8e9cb37ee8be5",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250401173906.png",
     "attachments/Pasted image 20250331180704.png",
     "attachments/Pasted image 20250331175152.png",
     "attachments/Pasted image 20250331174941.png",
@@ -210,7 +210,6 @@
     "attachments/25641.png",
     "Pasted image 20250331180704.png",
     "Pasted image 20250331175152.png",
-    "Pasted image 20250331174941.png",
     "3F1/Digital Filtering.md",
     "3F1/3rd notes/L16_handout.pdf",
     "3F1/3rd notes/3F1 by T.L..pdf",
