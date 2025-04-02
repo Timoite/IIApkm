@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3M1/Revision/Linear Algebra.md",
+                "file": "3F1/Discrete-time systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Algebra"
+              "title": "Discrete-time systems"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0f60276b302708f0",
@@ -186,33 +185,41 @@
   },
   "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250401173906.png",
+    "attachments/25641.png",
     "3M1/Revision/Linear Algebra.md",
+    "attachments/Pasted image 20250331160052.png",
+    "attachments/Pasted image 20250331180704.png",
+    "attachments/Pasted image 20250331175152.png",
+    "attachments/Pasted image 20250331174941.png",
+    "attachments/Pasted image 20250331165219.png",
+    "attachments/Pasted image 20250331165146.png",
+    "attachments/Pasted image 20250331164253.png",
+    "conflict-files-obsidian-git.md",
+    "attachments/Pasted image 20250329170355.png",
+    "attachments/Pasted image 20250329160215.png",
+    "attachments",
+    "3F1/Discrete-time systems.md",
+    "3F1/Discrete and Continuous Random Processes.md",
+    "3F1/Discrete Fourier Transform.md",
+    "3F1/Digital Filtering.md",
+    "3F1/3rd notes/L16_handout.pdf",
+    "3F1/3rd notes/3F1 by T.L..pdf",
+    "3F1/3rd notes",
+    "3F1",
     "3G3/Keywords/未命名.md",
     "3M1/Revision/Non-linear constrained optimization.md",
     "3M1/Revision",
     "3M1",
     "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
-    "conflict-files-obsidian-git.md",
     "3F3/Reference Notes/3F3 by M.S..pdf",
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
     "3G3/3rd Revision Notes for reference",
     "3F7/3F7 information theory.md",
     "未命名.md",
-    "3G4/3rd Revision Notes (for reference)/3G4 by M.S..pdf",
-    "3F3/Reference Notes",
-    "3F3",
-    "3E1/3rd Revision Notes (for reference)/3E1 by M.S..pdf",
-    "3G4/3rd Revision Notes (for reference)/3G4 by T.L..pdf",
     "3G3/Keywords/electrical synapses.md",
-    "3F7/1737546596841.png",
-    "3F7/1737553112899.png",
     "3B1/3b1.md",
     "欢迎.md",
-    "3F8/Lectures/attachments/Pasted image 20250311151826.png",
-    "3F8/Lectures/attachments/Pasted image 20250311151123.png",
-    "3F8/Lectures/attachments/Pasted image 20250311150948.png",
-    "3F8/Lectures/attachments/Pasted image 20250311150931.png",
-    "3F8/Lectures/attachments/Pasted image 20250311150303.png",
     "3F8/Lectures/Optimization/Search methods for univariate continuous functions.md",
     "3F8/Lectures/Optimization/Introduction to Optimization.md",
     "3F8/Keywords/positive definite.md",
@@ -220,17 +227,9 @@
     "3F8/Keywords/Hessian.md",
     "3G3/Keywords/habituation.md",
     "3G3/Keywords/depolarization.md",
-    "3G3/Keywords/attachments/9622.png",
-    "3G3/Keywords/attachments/94126.png",
-    "3G3/Keywords/attachments/89649.png",
     "3G3/Keywords/hippocampus.md",
     "3G3/Keywords/dendrites.md",
     "3G3/Keywords/postsynaptic receptor.md",
-    "3G3/Keywords/sensitization.md",
-    "3G3/Keywords/norepinephrine.md",
-    "3G3/Keywords/signals (excitatory or inhibitory).md",
-    "3G3/Keywords/neurotransmitter.md",
-    "3G3/Keywords/memory.md",
-    "3G3/Keywords/ion channels.md"
+    "3G3/Keywords/sensitization.md"
   ]
 }
