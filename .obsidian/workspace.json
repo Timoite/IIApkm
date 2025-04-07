@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3F1/Discrete-time systems.md",
+                "file": "3F2/OK..md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Discrete-time systems"
+              "title": "OK."
             }
           }
         ]
@@ -171,12 +171,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
@@ -185,6 +185,13 @@
   },
   "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
+    "3F2/attachments/17042.png",
+    "3F2/attachments",
+    "17042.png",
+    "未命名 1",
+    "3F2",
+    "3F1/Discrete-time systems.md",
+    "3F2/OK..md",
     "attachments/Pasted image 20250401173906.png",
     "attachments/25641.png",
     "3M1/Revision/Linear Algebra.md",
@@ -196,10 +203,7 @@
     "attachments/Pasted image 20250331165146.png",
     "attachments/Pasted image 20250331164253.png",
     "conflict-files-obsidian-git.md",
-    "attachments/Pasted image 20250329170355.png",
-    "attachments/Pasted image 20250329160215.png",
     "attachments",
-    "3F1/Discrete-time systems.md",
     "3F1/Discrete and Continuous Random Processes.md",
     "3F1/Discrete Fourier Transform.md",
     "3F1/Digital Filtering.md",
@@ -211,12 +215,8 @@
     "3M1/Revision/Non-linear constrained optimization.md",
     "3M1/Revision",
     "3M1",
-    "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
-    "3F3/Reference Notes/3F3 by M.S..pdf",
     "3G3/Compiled_Revision_Note_3G3/3G3 2024-25 syllabus.md",
-    "3G3/3rd Revision Notes for reference",
     "3F7/3F7 information theory.md",
-    "未命名.md",
     "3G3/Keywords/electrical synapses.md",
     "3B1/3b1.md",
     "欢迎.md",
