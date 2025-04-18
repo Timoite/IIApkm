@@ -11,14 +11,16 @@
             "id": "80b292d65e82f2c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "3G3/Keywords/aplysia.md",
-                "mode": "source",
-                "source": false
+                "file": "3G3/3rd Revision Notes for reference/3G3 by T.L..pdf",
+                "page": 3,
+                "left": -12,
+                "top": 611,
+                "zoom": 1.229682726737452
               },
-              "icon": "lucide-file",
-              "title": "aplysia"
+              "icon": "lucide-file-text",
+              "title": "3G3 by T.L."
             }
           }
         ]
@@ -185,8 +187,8 @@
   },
   "active": "80b292d65e82f2c3",
   "lastOpenFiles": [
-    "3F7/3F7 information theory.md",
     "3G3/Keywords/aplysia.md",
+    "3F7/3F7 information theory.md",
     "3F2/OK..md",
     "3F2/attachments/17042.png",
     "3F2/attachments",
